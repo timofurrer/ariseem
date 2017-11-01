@@ -4,8 +4,12 @@
 
 It's pure Python and does not require any system dependencies.
 
+## Installation
+
+Just use docker:
+
 ```
-pip3 install ariseem
+docker build . -t ariseem && docker run -v $PWD:/app -p 5000:5000 -it ariseem
 ```
 
 ## Configuration
