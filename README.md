@@ -12,6 +12,9 @@ Just use docker:
 docker build . -t ariseem && docker run -v $PWD:/app --net=host -it ariseem
 ```
 
+If you want to expose this service into the internet please make sure you are properly secured
+with a proxy in front of this service. TLS and at least some form of authentication.
+
 ## Configuration
 
 `ariseem` is configured via YAML file:
