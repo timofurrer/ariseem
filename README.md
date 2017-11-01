@@ -9,7 +9,7 @@ It's pure Python and does not require any system dependencies.
 Just use docker:
 
 ```
-docker build . -t ariseem && docker run -v $PWD:/app -p 5000:5000 -it ariseem
+docker build . -t ariseem && docker run -v $PWD:/app --net=host -it ariseem
 ```
 
 ## Configuration
