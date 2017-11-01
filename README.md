@@ -14,11 +14,11 @@ pip3 install ariseem
 
 ```
 machines:
-    - myserver: AA:BB:CC:DD:EE:FF
-    - mypc: AA:BB:CC:FF:EE:DD
+    myserver: AA:BB:CC:DD:EE:FF
+    mypc: AA:BB:CC:FF:EE:DD
 
 groups:
-    - vpn:
+    vpn:
         - myserver
         - mypc
 ```
